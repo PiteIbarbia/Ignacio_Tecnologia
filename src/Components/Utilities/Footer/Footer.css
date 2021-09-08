@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+  
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #4d9900;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.contact h1 {
+    font-family: Impact, fantasy;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.contact a {
+    display: flex;
+    flex-direction: row;
+    font-family: DejaVu Sans Mono, monospace;
+    color: #ffffff;
+    font-size: 2em;
+}

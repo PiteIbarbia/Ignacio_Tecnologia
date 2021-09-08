@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+  
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    background-color: #4d9900;
+}
+
+.home h1 {
+    text-align: center;
+    font-family: Impact, fantasy;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.home_body {
+    font-family: DejaVu Sans Mono, monospace;
+    color: #ffffff;
+}
+
+.home_body ul {
+    list-style-type: square;
+    padding-left: 3.5em;
+    font-size: 1em
+}
+
+.home_body h2 {
+    text-align: center;
+    font-size: 1.5em;
+}

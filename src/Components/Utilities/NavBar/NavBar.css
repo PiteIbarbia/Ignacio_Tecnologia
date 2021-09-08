@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+  
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu {
+    background-color: #4d9900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5em;
+    border-color: #0000b3;
+}
+
+.menu_img img {
+    height: 10em;
+    width: auto;
+    padding-left: 15em;
+}
+
+.menu_title {
+    text-align: center;
+    color: #0000b3;
+    font-family: Impact, fantasy;
+    font-size: 2em;
+    padding-right: 8em;
+}
